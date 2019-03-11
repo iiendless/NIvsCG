@@ -1,16 +1,16 @@
 net: "train_val.prototxt"
 test_iter: 397                   #完成一次测试需要的迭代次数
 test_interval: 10000             #测试间隔
-base_lr: 0.001                   √#基础学习率
-lr_policy: "step"                #学习率变化规律
-gamma: 0.1                       #学习率变化指数
-stepsize: 30000                  #学习率变化频率
-display: 1000                    #屏幕显示间隔
-max_iter: 90000                  #最大迭代次数
-momentum: 0.9                    √#动量
+base_lr: 0.001                   √ #基础学习率
+lr_policy: "step"                √ #学习率变化规律
+gamma: 0.1                       √ #学习率变化指数
+stepsize: 30000                  √ #学习率变化频率
+display: 1000                    √ #屏幕显示间隔
+max_iter: 90000                  √ #最大迭代次数
+momentum: 0.9                    √ #动量
 weight_decay: 0.0001             #权重衰减
-regularization_type: "L1"        √#正则化范数
+regularization_type: "L1"        √ #正则化范数
 snapshot: 30000                  #保存模型间隔
-snapshot_prefix: "train"         √#保存模型的前缀
-solver_mode: GPU                 √#是否使用GPU
+snapshot_prefix: "train"         √ #保存模型的前缀
+solver_mode: GPU                 √ #是否使用GPU
 
